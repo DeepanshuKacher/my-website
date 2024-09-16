@@ -1,3 +1,5 @@
+import { ProjectDetail, Urlname } from "@/interfaces";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently working in a software developing startup",
+    title: "Currently working as a software developer",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,19 +74,34 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Play Chess",
+    des: "Online Chess playing platform, where players compete with each other, enjoy a realtime chess playing experience",
+    img: "https://chess.deepanshu.techresonance.com/chess_board.jpg",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nodejs.svg",
+      "/nginx.svg",
+    ],
+    link: Urlname.chess,
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Restaurant Managing Platform",
+    des: "Manage your restaurants efficiently, track revenue, boost performance, have a detailed record of nitty gritty things",
+    img: "/eatrofoods_photo.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nestjs.svg",
+      "/redis.svg",
+      "/prisma.svg",
+      "/mongodb-original.svg",
+      "/nginx.svg",
+    ],
+    link: Urlname.eatrofoods,
   },
   {
     id: 3,
@@ -101,6 +118,31 @@ export const projects = [
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
+  },
+];
+
+export const projectDetails: ProjectDetail[] = [
+  {
+    heading: "Play Chess with live opponent online",
+    majorText:
+      "Online Chess playing platform, where players compete with each other, enjoy a realtime chess playing experience",
+    githubLink: "https://github.com/DeepanshuKacher/chess-clone",
+    siteUrl: "https://chess.deepanshu.techresonance.com",
+    imageLink: "https://chess.deepanshu.techresonance.com/chess_board.jpg",
+    urlname: Urlname.chess,
+    technologicalDescription:
+      "Frontend is made with next.js (SSG) and for ui purposes I have used tailwind css. Backend is in pure typescript and for routing purposes I have use expressJS",
+  },
+  {
+    heading: "Restaurant Managing Web Based System",
+    majorText:
+      "Manage your restaurants efficiently, track revenue, boost performance, have a detailed record of nitty gritty things",
+    githubLink: "https://github.com/DeepanshuKacher?tab=repositories",
+    siteUrl: "https://auth.eatrofoods.com",
+    imageLink: "/eatrofoods_photo.png",
+    urlname: Urlname.eatrofoods,
+    technologicalDescription:
+      "eatrofoods is a combinatin of many small projects and those are - manager(web-application), backend(nest.js), foodie food ordering web-application for restaurant's customers, a react-native (expo) based mobile application for waiter and a printing management system based on python, it's a live application where everything is connected to a centralized system know as mosquitto which is mqtt broker helps for bi-directional communication, eatrofoods is also well suited for fast pace restaurant because of redis in-memory database and for storing data's we use mongodb and prisma ORM as connector",
   },
 ];
 
@@ -205,6 +247,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/DeepanshuKacher",
   },
   {
     id: 2,
