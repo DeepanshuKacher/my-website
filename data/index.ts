@@ -85,6 +85,7 @@ export const projects = [
       "/nginx.svg",
     ],
     link: Urlname.chess,
+    urlLink: "https://chess.deepanshu.techresonance.com/",
   },
   {
     id: 2,
@@ -102,6 +103,7 @@ export const projects = [
       "/nginx.svg",
     ],
     link: Urlname.eatrofoods,
+    urlLink: "https://auth.eatrofoods.com/",
   },
   {
     id: 3,
@@ -116,6 +118,7 @@ export const projects = [
       "/nginx.svg",
     ],
     link: Urlname.youtube_downloader,
+    urlLink: "https://youtubedownloader.deepanshu.techresonance.com/",
   },
   {
     id: 4,
