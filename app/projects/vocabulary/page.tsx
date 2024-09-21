@@ -75,7 +75,7 @@ const Page = (params: ProjectPageProps) => {
             <div className="mt-4 text-sm md:text-base lg:text-xl">
               <p className="mt-4">
                 In this website users can learn new words with functionality of
-                frequent revisions, I have also planed to launch it's mobile
+                frequent revisions, I have also planed to launch it&apos;s mobile
                 application both for android and ios users, well the project is
                 not completed yet, but I will try to make it soon.
               </p>
