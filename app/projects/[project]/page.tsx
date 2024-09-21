@@ -5,7 +5,7 @@ import type { UrlName } from "@/interfaces";
 import React from "react";
 
 interface ProjectPageProps {
-  params: { project: "chess" };
+  params: { project: UrlName };
   searchParams: {};
 }
 
@@ -35,10 +35,10 @@ const Page = async (params: ProjectPageProps) => {
 export default Page;
 
 export const generateStaticParams = async () => {
-  return projectDetails.map((item) => item.urlname);
+  return projectDetails.map((item) => ({ project: item.urlname }));
 };
 
-export const getProjectDetail = async (params: UrlName) => {
+const getProjectDetail = async (params: UrlName) => {
   const projectDetail = projectDetails.find((item) => item.urlname === params);
 
   return projectDetail;

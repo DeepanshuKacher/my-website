@@ -105,19 +105,25 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Youtube Video Downloader",
+    des: "Youtube Video Downloader which can download videos HD qualities videos",
+    img: "/youtube_downloader.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nestjs.svg",
+      "/nginx.svg",
+    ],
+    link: Urlname.youtube_downloader,
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Increase Your Word Power",
+    des: "Learn new words every day and revise then frequently",
+    img: "/website-under-construction.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/nestjs.svg"],
+    link: Urlname.vocabulary,
   },
 ];
 
@@ -141,6 +147,27 @@ export const projectDetails: ProjectDetail[] = [
     siteUrl: "https://auth.eatrofoods.com",
     imageLink: "/eatrofoods_photo.png",
     urlname: Urlname.eatrofoods,
+    technologicalDescription:
+      "eatrofoods is a combinatin of many small projects and those are - manager(web-application), backend(nest.js), foodie food ordering web-application for restaurant's customers, a react-native (expo) based mobile application for waiter and a printing management system based on python, it's a live application where everything is connected to a centralized system know as mosquitto which is mqtt broker helps for bi-directional communication, eatrofoods is also well suited for fast pace restaurant because of redis in-memory database and for storing data's we use mongodb and prisma ORM as connector",
+  },
+  {
+    heading: "Youtube Video Downloader",
+    majorText:
+      "Youtube Video Downloader which can download videos HD qualities videos",
+    githubLink: "https://github.com/DeepanshuKacher?tab=repositories",
+    siteUrl: "https://auth.eatrofoods.com",
+    imageLink: "/eatrofoods_photo.png",
+    urlname: Urlname.youtube_downloader,
+    technologicalDescription:
+      "eatrofoods is a combinatin of many small projects and those are - manager(web-application), backend(nest.js), foodie food ordering web-application for restaurant's customers, a react-native (expo) based mobile application for waiter and a printing management system based on python, it's a live application where everything is connected to a centralized system know as mosquitto which is mqtt broker helps for bi-directional communication, eatrofoods is also well suited for fast pace restaurant because of redis in-memory database and for storing data's we use mongodb and prisma ORM as connector",
+  },
+  {
+    heading: "Increase Your Word Power",
+    majorText: "Learn new words every day and revise then frequently",
+    githubLink: "https://github.com/DeepanshuKacher?tab=repositories",
+    siteUrl: "/",
+    imageLink: "/eatrofoods_photo.png",
+    urlname: Urlname.vocabulary,
     technologicalDescription:
       "eatrofoods is a combinatin of many small projects and those are - manager(web-application), backend(nest.js), foodie food ordering web-application for restaurant's customers, a react-native (expo) based mobile application for waiter and a printing management system based on python, it's a live application where everything is connected to a centralized system know as mosquitto which is mqtt broker helps for bi-directional communication, eatrofoods is also well suited for fast pace restaurant because of redis in-memory database and for storing data's we use mongodb and prisma ORM as connector",
   },
@@ -215,29 +242,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineer",
+    desc: "Started my carrer as javascript developer at Med-Size startup, my core job was to fix-bugs, improve functionality",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Self Startup",
+    desc: "Restaurant management system eatrofoods, a project fully-developed in typescript for managing restaurants",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
+  // {
+  //   id: 3,
+  //   title: "Freelance App Dev Project",
+  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Lead Developer in startup",
+    desc: "Development, Operations and managing projects, starting from idea to actual product. Devops and Management",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -252,9 +279,11 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/deepanshu895",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/deepanshukacher/",
   },
 ];
