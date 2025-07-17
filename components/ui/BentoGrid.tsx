@@ -185,7 +185,7 @@ export const BentoGridItem = ({
               {/* add handleCopy() for the copy the text */}
               <div className={`absolute -bottom-5 right-0 block`}>
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
               </div>
 
               <MagicButton
