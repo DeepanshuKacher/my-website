@@ -1,8 +1,8 @@
 export const Urlname = {
   chess: "chess",
   eatrofoods: "eatrofoods",
-  youtube_downloader: "youtube_downloader",
-  vocabulary: "vocabulary",
+  readmylove: "readmylove",
+  dreammypic: "dreammypic",
 } as const;
 
 export type UrlName = keyof typeof Urlname;

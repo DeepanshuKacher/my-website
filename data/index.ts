@@ -107,26 +107,27 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Youtube Video Downloader",
-    des: "Youtube Video Downloader which can download videos HD qualities videos",
-    img: "/youtube_downloader.png",
+    title: "readmylove dating app",
+    des: "A dating app that connects people based on their interests and preferences",
+    img: "readmylove-banner.webp",
     iconLists: [
-      "/next.svg",
-      "/tail.svg",
+      // "/next.svg",
+      "/expo-icon-svgrepo-com.svg",
       "/ts.svg",
       "/nestjs.svg",
       "/nginx.svg",
     ],
-    link: Urlname.youtube_downloader,
-    urlLink: "https://youtubedownloader.deepanshu.techresonance.com/",
+    link: Urlname.readmylove,
+    urlLink: "https://play.google.com/store/apps/details?id=com.deepanshu895.readmylove",
   },
   {
     id: 4,
-    title: "Increase Your Word Power",
-    des: "Learn new words every day and revise then frequently",
-    img: "/website-under-construction.jpg",
+    title: "Generate your dream picture from your portrait",
+    des: "Generative AI application which converts your portrait according to provided prompt",
+    img: "/dreammypic-banner.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/nestjs.svg"],
-    link: Urlname.vocabulary,
+    link: Urlname.dreammypic,
+    urlLink: "https://dreammypic.com",
   },
 ];
 
@@ -146,7 +147,7 @@ export const projectDetails: ProjectDetail[] = [
     heading: "Restaurant Managing Web Based System",
     majorText:
       "Manage your restaurants efficiently, track revenue, boost performance, have a detailed record of nitty gritty things",
-    githubLink: "https://github.com/DeepanshuKacher?tab=repositories",
+    githubLink: "https://github.com/eatrofoods",
     siteUrl: "https://auth.eatrofoods.com",
     imageLink: "/eatrofoods_photo.png",
     urlname: Urlname.eatrofoods,
@@ -154,25 +155,25 @@ export const projectDetails: ProjectDetail[] = [
       "eatrofoods is a combinatin of many small projects and those are - manager(web-application), backend(nest.js), foodie food ordering web-application for restaurant's customers, a react-native (expo) based mobile application for waiter and a printing management system based on python, it's a live application where everything is connected to a centralized system know as mosquitto which is mqtt broker helps for bi-directional communication, eatrofoods is also well suited for fast pace restaurant because of redis in-memory database and for storing data's we use mongodb and prisma ORM as connector",
   },
   {
-    heading: "Youtube Video Downloader",
+    heading: "readmylove dating app",
     majorText:
-      "Youtube Video Downloader which can download videos HD qualities videos",
+      "A dating app that connects people based on their posts, preferences and locations",
     githubLink: "https://github.com/DeepanshuKacher?tab=repositories",
-    siteUrl: "https://auth.eatrofoods.com",
+    siteUrl: "https://play.google.com/store/apps/details?id=com.deepanshu895.readmylove",
     imageLink: "/eatrofoods_photo.png",
-    urlname: Urlname.youtube_downloader,
+    urlname: Urlname.readmylove,
     technologicalDescription:
-      "eatrofoods is a combinatin of many small projects and those are - manager(web-application), backend(nest.js), foodie food ordering web-application for restaurant's customers, a react-native (expo) based mobile application for waiter and a printing management system based on python, it's a live application where everything is connected to a centralized system know as mosquitto which is mqtt broker helps for bi-directional communication, eatrofoods is also well suited for fast pace restaurant because of redis in-memory database and for storing data's we use mongodb and prisma ORM as connector",
+      "React Native (expo) based mobile application.",
   },
   {
-    heading: "Increase Your Word Power",
-    majorText: "Learn new words every day and revise then frequently",
+    heading: "Generate your dream picture from your portrait",
+    majorText: "Generative AI application which converts your portrait according to provided prompt",
     githubLink: "https://github.com/DeepanshuKacher?tab=repositories",
-    siteUrl: "/",
+    siteUrl: "https://dreammypic.com",
     imageLink: "/eatrofoods_photo.png",
-    urlname: Urlname.vocabulary,
+    urlname: Urlname.dreammypic,
     technologicalDescription:
-      "eatrofoods is a combinatin of many small projects and those are - manager(web-application), backend(nest.js), foodie food ordering web-application for restaurant's customers, a react-native (expo) based mobile application for waiter and a printing management system based on python, it's a live application where everything is connected to a centralized system know as mosquitto which is mqtt broker helps for bi-directional communication, eatrofoods is also well suited for fast pace restaurant because of redis in-memory database and for storing data's we use mongodb and prisma ORM as connector",
+      "python, stable diffusion, next.js, tailwind css, typescript, docker, runpod",
   },
 ];
 
@@ -257,20 +258,21 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  // {
-  //   id: 3,
-  //   title: "Freelance App Dev Project",
-  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-  //   className: "md:col-span-2", // change to md:col-span-2
-  //   thumbnail: "/exp3.svg",
-  // },
   {
-    id: 4,
+    id: 3,
     title: "Lead Developer in startup",
     desc: "Development, Operations and managing projects, starting from idea to actual product. Devops and Management",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+  {
+    id: 4,
+    title: "readmylove dating app",
+    desc: "Recently working on readmylove dating app, exploring marketing, google play store and advertising",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
+  },
+
 ];
 
 export const socialMedia = [
